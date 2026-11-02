@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="700" fill="url(#bg)"/>
+  <circle cx="220" cy="170" r="100" fill="#22c55e" opacity="0.9"/>
+  <circle cx="980" cy="220" r="120" fill="#3b82f6" opacity="0.75"/>
+  <circle cx="820" cy="560" r="140" fill="#f59e0b" opacity="0.7"/>
+  <rect x="180" y="210" width="840" height="260" rx="28" fill="#0b1120" opacity="0.72" stroke="#94a3b8" stroke-width="2"/>
+  <text x="600" y="330" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="62" font-weight="700" fill="#f8fafc">FSD CA-2</text>
+  <text x="600" y="390" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#cbd5e1">Feedback Management System</text>
+  <text x="600" y="455" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#a5b4fc">Backend Project</text>
+</svg>
