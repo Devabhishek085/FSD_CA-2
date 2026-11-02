@@ -4,7 +4,6 @@ const Feedback = require("../models/feedback");
 
 const router = express.Router();
 
-// POST /api/feedback
 router.post("/", async (req, res, next) => {
   try {
     const { studentName, courseName, message, rating } = req.body;
@@ -26,7 +25,6 @@ router.post("/", async (req, res, next) => {
   }
 });
 
-// GET /api/feedback?page=1&limit=10
 router.get("/", async (req, res, next) => {
   try {
     const page = req.query.page === undefined ? 1 : Number(req.query.page);
@@ -57,7 +55,6 @@ router.get("/", async (req, res, next) => {
   }
 });
 
-// PATCH /api/feedback/:id
 router.patch("/:id", async (req, res, next) => {
   try {
     const { id } = req.params;
